@@ -1,0 +1,19 @@
+👽️ dependency:
+  - any: ['package.json', 'package-lock.json', 'yarn.lock', '.pnp.*']
+📝 documentation: ['README.md', 'docs/**/*']
+🔖 release: 'CHANGELOG.md'
+🧪 testing: '**/*.test.ts'
+🔧 tooling:
+  - any:
+      [
+        '*',
+        '.github/**/*',
+        '.vscode/**/*',
+        '.yarn*',
+        '.yarn/**/*',
+        'config/**/*',
+        'scripts/**/*',
+        '!package*',
+        '!yarn.lock',
+        '!*.@(md|mdx)',
+      ]
